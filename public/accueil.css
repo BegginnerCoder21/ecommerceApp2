@@ -1,0 +1,321 @@
+
+.accueil{
+    height: 2cm;
+    background-color: rgb(199, 11, 11);
+    display: flex;
+}
+.accueil a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    display: flex;
+    margin-left: 5cm;
+    list-style-type:none
+}
+li {
+    margin-left:3cm;
+
+}
+
+form{
+    margin-left: 3cm;
+    margin-top: 0.5px;
+}
+.suite{
+    display: flex;
+    background-color:wheat;
+    height: 1cm;
+}
+.suite a{
+    text-decoration: none;
+    color:black;
+}
+.photo{
+    background-image: url(IMAGES/mobilier-vintage-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 11cm;
+}
+.photo button{
+    margin-left: 16.5cm;
+    border-radius: 20px;
+    background-color:rgb(247, 34, 69) ;
+    padding: 10px;
+    
+}
+.photo a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.choix {
+    display: flex;
+
+}
+.achat{
+    background-image: url(IMAGES/achat-en-ligne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+.achat button{
+    margin-left: 1cm;
+    border-radius: 20px;
+    background-color: rgb(247, 34, 69);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    margin-top: 7cm;
+    
+}
+.achat a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.vente{
+    background-image: url(IMAGES/vendre-via-Youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9cm;   
+    width: 100%;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.vente button{
+    margin-left: 1cm;
+    border-radius: 20px;
+    background-color: rgb(247, 34, 69) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    margin-top: 7cm;
+    
+}
+.vente a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.article1{
+    display: flex;
+    height: 6cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+}
+.article11{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+}
+.article12{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article13{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article14{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article2{
+    display: flex;
+    height: 6cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.article21{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+}
+.article22{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article23{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article24{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article3{
+    display: flex;
+    height: 6cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.article31{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+}
+.article32{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article33{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.article34{
+    height: 6cm;
+    width: 100%;
+    background-color: black ;
+    margin-left: 2cm;
+}
+.name1 , .name2 , .name3{
+    display:flex;
+    color: black;
+    margin-left: 2cm;
+}
+.name1 button , .name2 button , .name3 button{
+  
+    background-color:white ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    
+} 
+.name1 a , .name2 a , .name3 a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+#MONTRES , #ARTS , #MUSIQUES{
+   margin-left: 0.5cm;
+}
+#CHAINES  , #JOUETS{
+  margin-left: 6cm;  
+}
+#VOITURES , #SCULPTURES ,#MEUBLES {
+   margin-left: 7cm; 
+}
+#ELECTROMENAGERS{
+    margin-left: 6cm;
+}
+#LIVRES {
+    margin-left: 6cm; 
+ }
+ #COUVERTS , #PORTRAITS{
+    margin-left: 5cm;
+ }
+.texte{
+    background-color: rgb(199, 11, 11);
+    height: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding-left: 1cm;
+}
+.texte p{
+    font-size: large;
+}
+h1{
+    text-align: center;
+    color:  rgb(247, 34, 69);
+ 
+}
+h2 {
+    color: black;
+    text-align: center;
+    padding-top: 4cm;
+    font-family: monospace;
+    font-weight: 800;
+}
+h4{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    display: flex;
+    height: 5cm;
+    background-color:black;
+    margin-top: 1cm;
+    color: white;
+    padding-left: 2cm;
+}
+.contact{
+    height: 5cm;
+    width: 100%;
+    margin-left: 1cm;
+
+}
+.reseaux{
+    display: flex;
+}
+.service{
+    height: 5cm;
+    width: 100%; 
+
+}
+.facebook{
+    margin-left: 10px;
+}
+.paiement{
+    height: 5cm;
+    width: 100%; 
+
+    
+}
+.paie{
+    display: flex;
+}
+h5{
+    color:  rgb(247, 34, 69);
+    font-size: x-large;
+}
+button {
+    --c:gray; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  

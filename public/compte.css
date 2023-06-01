@@ -1,0 +1,184 @@
+.accueil{
+    height: 2cm;
+    background-color: rgb(199, 11, 11);
+    display: flex;
+}
+.accueil a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    display: flex;
+    margin-left: 5cm;
+    list-style-type:none
+}
+li {
+    margin-left:3cm;
+
+}
+form{
+    margin-left: 3cm;
+    margin-top: 0.5px;
+}
+.suite{
+    display: flex;
+    background-color:wheat;
+    height: 1cm;
+}
+.suite a{
+    text-decoration: none;
+    color:black;
+}
+.photo{
+    background-image: url(IMAGES/mobilier-vintage-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 11cm;
+}
+.photo button{
+    margin-left: 16.5cm;
+    border-radius: 20px;
+    background-color:rgb(247, 34, 69) ;
+    padding: 10px;
+    
+}
+.photo a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+h2 {
+    color: black;
+    text-align: center;
+    padding-top: 4cm;
+    font-family: monospace;
+    font-weight: 800;
+}
+h1{
+    text-align: center;
+    color: black; 
+}
+h3{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;  
+}
+.formulaire{
+    display: flex;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: rgb(247, 34, 69);
+    height: 14cm;
+    padding: 1cm;
+    margin-top: 2cm;
+}
+.image{
+    background-image: url(IMAGES/achat-en-ligne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+.formules{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+.formule{
+    background-color:beige;
+   display: flex;
+}
+.formule2{
+    padding-right: 1cm;
+}
+.bouton{
+    margin-top: 1cm;
+    margin-left: 8cm;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+}
+label{
+    color: crimson;
+}
+#bouton{
+    background-color: crimson;
+}
+#bouton{
+    background-color: crimson;
+    margin-left: 1cm;
+}
+
+footer{
+    display: flex;
+    height: 5cm;
+    background-color:black;
+    margin-top: 1cm;
+    color: white;
+    padding-left: 2cm;
+}
+.texte{
+    background-color: rgb(199, 11, 11);
+    height: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding-left: 1cm;
+    margin-top: 3cm;
+}
+.texte p{
+    font-size: large;
+}
+.facebook{
+    margin-left: 10px;
+}
+.contact{
+    height: 5cm;
+    width: 100%;
+    margin-left: 1cm;
+
+}
+.reseaux{
+    display: flex;
+}
+.service{
+    height: 5cm;
+    width: 100%; 
+
+}
+.paiement{
+    height: 5cm;
+    width: 100%; 
+
+}
+.paie{
+    display: flex;
+}
+h5{
+    color:  rgb(247, 34, 69);
+    font-size: x-large;
+}
+button {
+    --c:gray; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }

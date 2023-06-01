@@ -1,0 +1,233 @@
+.accueil{
+    height: 2cm;
+    background-color: rgb(199, 11, 11);
+    display: flex;
+}
+.accueil a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    display: flex;
+    margin-left: 5cm;
+    list-style-type:none
+}
+li {
+    margin-left:3cm;
+
+}
+form{
+    margin-left: 3cm;
+    margin-top: 0.5px;
+}
+.suite{
+    display: flex;
+    background-color:wheat;
+    height: 1cm;
+}
+.suite a{
+    text-decoration: none;
+    color:black;
+}
+.photo{
+    background-image: url(IMAGES/mobilier-vintage-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 11cm;
+}
+.photo button{
+    margin-left: 16.5cm;
+    border-radius: 20px;
+    background-color:rgb(247, 34, 69) ;
+    padding: 10px;
+    
+}
+.photo a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.texte{
+    background-color: rgb(199, 11, 11);
+    height: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding-left: 1cm;
+}
+.texte p{
+    font-size: large;
+}
+h1{
+    text-align: center;
+    color: black; 
+}
+h2 {
+    color: black;
+    text-align: center;
+    padding-top: 4cm;
+    font-family: monospace;
+    font-weight: 800;
+}
+footer{
+    display: flex;
+    height: 5cm;
+    background-color:black;
+    margin-top: 2cm;
+    padding-left: 2cm;
+}
+.contact{
+    height: 5cm;
+    width: 100%;
+    margin-left: 1cm;
+
+}
+.reseaux{
+    display: flex;
+}
+.service{
+    height: 5cm;
+    width: 100%; 
+color: white;
+}
+.paiement{
+    height: 5cm;
+    width: 100%; 
+
+}
+.paie{
+    display: flex;
+}
+h5{
+    color:  rgb(247, 34, 69);
+    font-size: x-large;
+}
+.facebook{
+    margin-left: 10px;
+}
+.orange{
+    margin-left: 10px;
+}
+.mtn{
+    margin-left: 10px;
+}
+.galerie1{
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.galerie11{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+}
+.galerie12{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+.galerie13{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+.galerie14{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+
+h6{
+    text-align: center;
+        color:  rgb(247, 34, 69);
+ 
+}
+.galerie2{
+    display: flex;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 2cm;
+}
+.galerie21{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+}
+.galerie22{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+.galerie23{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+.galerie24{
+    background-color: wheat;
+    height: 6cm;
+    width: 100%;
+    margin-left: 1cm;
+}
+.texte{
+    background-color: rgb(199, 11, 11);
+    height: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding-left: 1cm;
+    margin-top: 3cm;
+}
+.texte p{
+    font-size: large;
+}
+h3{
+    text-align: center;
+    color:  rgb(247, 34, 69);
+}
+button {
+    --c:gray; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  .galerie1 img{
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.galerie1 img:hover{
+    transform:rotate3d(0,1,0,180deg);
+}
+.galerie2 img{
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.galerie2 img:hover{
+    transform:rotate3d(0,1,0,180deg);
+}
